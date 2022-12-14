@@ -68,9 +68,13 @@ img{
     flex-direction: row-reverse;
 }
 
+.row > main{
+    padding: 50px 5px 50px 5px;
+}
+
 .debug .containermain1,.containermain2,.containermain3,.containermain4{
-    padding: 20px 100px;
-    min-height: 400px;
+    padding: 40px 100px;
+    min-height: 450px;
     background-color: white;
 }
 
@@ -80,21 +84,21 @@ img{
 
 .debug .colmain1{
     padding: 10px;
-    min-height: 250px;
+    min-height: 380px;
     border: 4px dashed black;
     background-color: aqua;
 }
 
 .debug .colmain2{
     padding: 10px;
-    min-height: 250px;
+    min-height: 380px;
     border: 4px dashed black;
     background-color: pink;
 }
 
 .colmain{
     padding: 10px;
-    min-height: 400px;
+    min-height: 500px;
     border: 4px dashed black;
     background-color: aqua;
 }
@@ -116,8 +120,8 @@ img{
 }
 
 .debug .containertag{
-    padding: 20px 100px;
-    min-height: 350px;
+    padding: 5px 100px 10px 100px;
+    min-height: 300px;
     background-color: blue;
 }
 
