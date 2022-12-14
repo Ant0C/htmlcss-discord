@@ -98,3 +98,37 @@ img{
     border: 4px dashed black;
     background-color: aqua;
 }
+
+/* Regole footer pagina */
+
+.coltag,.coltagt{
+    flex-basis: calc(100%/5);
+}
+
+.coltagt{
+    flex-basis: 40%;
+}
+
+.containertag > .row{
+    flex-direction: row-reverse;
+}
+
+.debug .containertag{
+    padding: 20px 100px;
+    min-height: 350px;
+    background-color: blue;
+}
+
+.debug .coltag{
+    padding: 10px;
+    min-height: 250px;
+    border: 4px dashed white;
+    background-color: rgb(8, 59, 59);
+}
+
+.debug .coltagt{
+    padding: 10px;
+    min-height: 250px;
+    border: 4px dashed black;
+    background-color: rgb(53, 8, 59);
+}
