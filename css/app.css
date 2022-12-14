@@ -1,0 +1,53 @@
+
+    /* Regole Generali */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+    /* Regole Header pagina*/
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.colnav{
+    flex-basis: calc(100%/3);
+}
+
+.colmain{
+    flex-basis: 80%;
+}
+
+.debug .containernav{
+    padding: 15px 100px;
+    min-height: 90px;
+    background-color: lightblue;
+}
+
+.debug .containermain{
+    padding: 20px 100px;
+    min-height: 350px;
+    background-color: blue;
+}
+
+.debug .colmain{
+    min-height: 300px;
+    border: 4px dashed black;
+    background-color: palevioletred;
+}
+
+.debug .colnav{
+    padding: 10px;
+    border: 4px dashed black;
+    background-color: orange;
+}
+
+    /* Regole Main pagina */
