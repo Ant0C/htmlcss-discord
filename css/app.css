@@ -22,7 +22,7 @@ img{
     flex-basis: calc(100%/3);
 }
 
-.colmain{
+.colheader{
     flex-basis: 80%;
 }
 
@@ -32,13 +32,13 @@ img{
     background-color: lightblue;
 }
 
-.debug .containermain{
+.debug .containerheader{
     padding: 20px 100px;
     min-height: 350px;
     background-color: blue;
 }
 
-.debug .colmain{
+.debug .colheader{
     min-height: 300px;
     border: 4px dashed black;
     background-color: palevioletred;
@@ -51,3 +51,39 @@ img{
 }
 
     /* Regole Main pagina */
+
+.colmain1{
+    flex-basis: 70%;
+}
+
+.colmain2{
+    flex-basis: 30%;
+}
+
+.containermain2 > .row {
+    flex-direction: row-reverse;
+}
+
+.debug .containermain1,.containermain2,.containermain3{
+    padding: 20px 100px;
+    min-height: 400px;
+    background-color: white;
+}
+
+.debug .containermain2{
+    background-color: gray;
+}
+
+.debug .colmain1{
+    padding: 10px;
+    min-height: 200px;
+    border: 4px dashed black;
+    background-color: aqua;
+}
+
+.debug .colmain2{
+    padding: 10px;
+    min-height: 200px;
+    border: 4px dashed black;
+    background-color: pink;
+}
