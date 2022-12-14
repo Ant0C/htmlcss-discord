@@ -101,6 +101,8 @@ img{
 
 /* Regole footer pagina */
 
+/* Prima sezione footer */
+
 .coltag,.coltagt{
     flex-basis: calc(100%/5);
 }
@@ -131,4 +133,31 @@ img{
     min-height: 250px;
     border: 4px dashed black;
     background-color: rgb(53, 8, 59);
+}
+
+/* Seconda sezione footer */
+
+.rowlink{
+    display: flex;
+    justify-content: space-between;
+}
+
+.debug .containermainlink{
+    padding: 10px 100px 0px 100px;
+    min-height: 80px;
+    border-top: 4px solid white;
+    background-color: blue;
+}
+
+.debug .containerlink{
+    padding: 10px 0px;
+    min-height: 60px;
+    background-color: gray;
+}
+
+.debug .collink{
+    padding: 10px;
+    min-height: 20px;
+    border: 4px dashed black;
+    background-color: rgba(145, 15, 172, 0.788);
 }
