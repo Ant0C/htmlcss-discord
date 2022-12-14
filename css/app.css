@@ -60,30 +60,41 @@ img{
     flex-basis: 30%;
 }
 
+.colmain{
+    flex-basis: 100%;
+}
+
 .containermain2 > .row {
     flex-direction: row-reverse;
 }
 
-.debug .containermain1,.containermain2,.containermain3{
+.debug .containermain1,.containermain2,.containermain3,.containermain4{
     padding: 20px 100px;
     min-height: 400px;
     background-color: white;
 }
 
-.debug .containermain2{
+.debug .containermain2,.containermain4{
     background-color: gray;
 }
 
 .debug .colmain1{
     padding: 10px;
-    min-height: 200px;
+    min-height: 250px;
     border: 4px dashed black;
     background-color: aqua;
 }
 
 .debug .colmain2{
     padding: 10px;
-    min-height: 200px;
+    min-height: 250px;
     border: 4px dashed black;
     background-color: pink;
+}
+
+.colmain{
+    padding: 10px;
+    min-height: 400px;
+    border: 4px dashed black;
+    background-color: aqua;
 }
