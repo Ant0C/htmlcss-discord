@@ -96,35 +96,57 @@ h1{
 
     /* Regole Main pagina */
 
-.colmain1{
+.container-main1 > .row{
+    align-items: center;
+}
+
+.container-main1,.container-main2{
+    padding: 50px;
+}
+
+.container-main2 > .row{
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.container-main2,.container-main4{
+    background-color: gray;
+}
+
+.colmain-1{
     flex-basis: 70%;
 }
 
-.colmain2{
+.colmain-2{
     flex-basis: 30%;
 }
 
 .colmain{
+    padding: 10px;
+    min-height: 500px;
+    border: 4px dashed black;
+    background-color: aqua;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p {
+    font-size: 15px;
+}
+.colmain{
     flex-basis: 100%;
 }
-
-.containermain2 > .row {
-    flex-direction: row-reverse;
-}
-
+/* *****forse da eliminare */
 .row > main{
-    padding: 50px 5px 50px 5px;
+    padding 50px 5px 50px 5px;
 }
 
-/* **Forse anche il padding dovrà essere spostato dal debug in regole vere */
 .debug .containermain1,.containermain2,.containermain3,.containermain4{
     padding: 40px 100px;
     min-height: 450px;
     background-color: white;
-}
-
-.debug .containermain2,.containermain4{
-    background-color: gray;
 }
 
 .debug .colmain1{
@@ -139,13 +161,6 @@ h1{
     min-height: 380px;
     border: 4px dashed black;
     background-color: pink;
-}
-
-.colmain{
-    padding: 10px;
-    min-height: 500px;
-    border: 4px dashed black;
-    background-color: aqua;
 }
 
 /* Regole footer pagina */
