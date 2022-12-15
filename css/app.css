@@ -96,12 +96,8 @@ h1{
 
     /* Regole Main pagina */
 
-.container-main1 > .row{
+.container-main1,.container-main3 > .row{
     align-items: center;
-}
-
-.container-main1,.container-main2{
-    padding: 50px;
 }
 
 .container-main2 > .row{
@@ -109,8 +105,16 @@ h1{
     flex-direction: row-reverse;
 }
 
+.container-main4 > .row{
+    flex-wrap: wrap;
+}
+
+.container-main1,.container-main2,.container-main3,.container-main4{
+    padding: 50px;
+}
+
 .container-main2,.container-main4{
-    background-color: gray;
+    background-color: #c5baba38;
 }
 
 .colmain-1{
@@ -121,15 +125,12 @@ h1{
     flex-basis: 30%;
 }
 
-.colmain{
-    padding: 10px;
-    min-height: 500px;
-    border: 4px dashed black;
-    background-color: aqua;
+h3{
+    font-size: 35px;
 }
 
-h2{
-    font-size: 35px;
+h4{
+    font-size: 20px;
 }
 
 p {
@@ -137,6 +138,16 @@ p {
 }
 .colmain{
     flex-basis: 100%;
+    text-align: center;
+}
+
+.colmain > h4{
+    margin-bottom: 15px;
+}
+
+.colmain > .col-button{
+    margin: 0 auto;
+    max-width: 140px;
 }
 /* *****forse da eliminare */
 .row > main{
