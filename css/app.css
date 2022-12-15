@@ -85,29 +85,6 @@ h1{
     flex-basis: 80%;
 }
 
-.debug .containernav{
-    padding: 15px 100px;
-    min-height: 90px;
-}
-
-.debug .containerheader{
-    padding: 20px 100px;
-    min-height: 350px;
-    background-color: blue;
-}
-
-.debug .colheader{
-    min-height: 300px;
-    border: 4px dashed black;
-    background-color: palevioletred;
-}
-
-.debug .colnav{
-    padding: 10px;
-    border: 4px dashed black;
-    background-color: orange;
-}
-
     /* Regole Main pagina */
 
 .container-main1,.container-main3 > .row{
@@ -156,6 +133,7 @@ p {
 }
 
 .colmain > h4{
+    background-image: url(../img/stars.svg);
     margin-bottom: 15px;
 }
 
@@ -166,7 +144,7 @@ p {
 
 .col-buttonend{
     color: white;
-    background-color: purple;
+    background-color: rgb(3, 38, 83);
     border-radius: 17px;
     padding: 10px 10px;
     text-align: center;
@@ -174,7 +152,7 @@ p {
     margin: 4px 2px;
 }
 
-/* Regole footer pagina */
+/* Regole footer */
 
 /* Prima sezione footer */
 
@@ -190,8 +168,13 @@ p {
     flex-direction: row-reverse;
 }
 
-.container-tag,.container-mainlink{
-    padding: 50px;
+.container-tag{
+    padding: 50px 50px 0px 50px;
+    background-color: rgba(27, 27, 27, 0.904);
+}
+
+.container-mainlink{
+    padding: 8px 50px 15px 50px;
     background-color: rgba(27, 27, 27, 0.904);
 }
 
@@ -200,19 +183,23 @@ ul,li{
     list-style-type: none;
 }
 
+li{
+    margin: 15px 0px;
+}
+
 .flag{
     width: 40px;
     margin-right: 5px;
     vertical-align: middle;
 }
 
-.tt{
+.title{
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.strong{
-    color: rgb(90, 6, 90);
+.strong,.title{
+    color: rgb(3, 38, 83);
 }
 
 .col-tag{
@@ -225,21 +212,12 @@ ul,li{
     min-height: 250px;
 }
 
-.debug .coltag{
-    padding: 10px;
-    min-height: 250px;
-    border: 4px dashed white;
-    background-color: rgb(8, 59, 59);
-}
-
-.debug .coltagt{
-    padding: 10px;
-    min-height: 250px;
-    border: 4px dashed rgba(27, 27, 27, 0.904);
-    background-color: rgb(53, 8, 59);
-}
-
 /* Seconda sezione footer */
+
+.container-link{
+    padding-top: 5px;
+    border-top: 3px solid white;
+}
 
 .rowlink{
     display: flex;
