@@ -33,13 +33,28 @@ img{
     margin: 5px;
 }
 
+.col-menu > span{
+    margin: 15px;
+}
+
 .col-button{
-  background-color: white;
-  border-radius: 17px;
-  padding: 10px 10px;
-  text-align: center;
-  font-size: 15px;
-  margin: 4px 2px;
+    color: black;
+    background-color: white;
+    border-radius: 17px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+.col-button2{
+    color: white;
+    background-color: rgb(37, 30, 30);
+    border-radius: 17px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
 }
 
 .container-header{
@@ -51,10 +66,9 @@ img{
     background-size: cover;
 }
 
-.col-header > .col-button{
+.col-header > .col-button,.col-button2{
     display: inline-block;
-    margin: 20px 0px;
-    color: black;
+    margin: 20px 10px;
 }
 
 .container-header > .row {
