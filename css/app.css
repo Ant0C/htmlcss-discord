@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Kanit', sans-serif;
 }
 
 img{
@@ -12,24 +13,67 @@ img{
 }
 
     /* Regole Header pagina*/
-
+/* **Forse dovrai accentrare il main header */
 .row{
     display: flex;
     justify-content: center;
 }
 
-.colnav{
-    flex-basis: calc(100%/3);
+.containernav > .row{
+    justify-content: space-between;
+    align-items: center;
 }
 
-.colheader{
+.containernav{
+    background-color: #2f52fffa;
+}
+
+.col-menu{
+    color: white;
+    margin: 5px;
+}
+
+.col-button{
+  background-color: white;
+  border-radius: 17px;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: url(../img/jumbo.png);
+    height: 450px;
+    background-size: cover;
+}
+
+.col-header > .col-button{
+    display: inline-block;
+    margin: 20px 0px;
+    color: black;
+}
+
+.container-header > .row {
+    align-items: center;
+}
+
+h1{
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.col-header{
+    text-align: center;
     flex-basis: 80%;
 }
 
 .debug .containernav{
     padding: 15px 100px;
     min-height: 90px;
-    background-color: lightblue;
 }
 
 .debug .containerheader{
@@ -72,6 +116,7 @@ img{
     padding: 50px 5px 50px 5px;
 }
 
+/* **Forse anche il padding dovrà essere spostato dal debug in regole vere */
 .debug .containermain1,.containermain2,.containermain3,.containermain4{
     padding: 40px 100px;
     min-height: 450px;
