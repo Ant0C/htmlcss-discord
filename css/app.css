@@ -145,13 +145,19 @@ p {
     margin-bottom: 15px;
 }
 
-.colmain > .col-button{
+.colmain > .col-buttonend{
     margin: 0 auto;
     max-width: 140px;
 }
-/* *****forse da eliminare */
-.row > main{
-    padding 50px 5px 50px 5px;
+
+.col-buttonend{
+    color: white;
+    background-color: purple;
+    border-radius: 17px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
 }
 
 .debug .containermain1,.containermain2,.containermain3,.containermain4{
